@@ -12,7 +12,7 @@ import (
 
 var (
 	dir     = flag.String("d", ".", "Root directory of your Go application")
-	verbose = flag.Bool("v", false, "Verbose output")
+	verbose = flag.Bool("v", true, "Verbose output")
 	th      = flag.Float64("t", 90, "Threshold of failure command")
 )
 
