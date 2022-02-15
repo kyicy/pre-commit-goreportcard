@@ -1,0 +1,9 @@
+- id: goreportcard
+  name: go report card
+  description: This hook calculate go project code quality.
+  entry: main
+  language: golang
+  files: '\.go$'
+  require_serial: true
+  fail_fast: true
+  verbose: true
