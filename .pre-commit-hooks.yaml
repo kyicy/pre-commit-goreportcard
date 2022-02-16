@@ -6,4 +6,4 @@
   files: '\.go$'
   require_serial: true
   fail_fast: true
-  verbose: true
+  verbose: false
